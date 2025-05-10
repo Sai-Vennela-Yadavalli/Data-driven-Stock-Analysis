@@ -46,9 +46,10 @@ Data-Driven-Stock-Analysis/
 ### 1️⃣ Clone the Repo
 
 ```bash
-git clone https://github.com/Sai-Vennela-Yadavalli/data-driven-stock-analysis.git
-cd data-driven-stock-analysis
+git clone (https://github.com/Sai-Vennela-Yadavalli/Data-driven-Stock-Analysis.git)
+cd Data-driven-Stock-Analysis
 ```
+
 
 ### 2️⃣ Install Requirements
 
