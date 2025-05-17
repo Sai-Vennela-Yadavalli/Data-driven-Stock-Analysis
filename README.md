@@ -1,100 +1,78 @@
-# Data-driven-Stock-Analysis
-Mini project for stock performance analytics using Python, Streamlit, and Power BI
-# 📈 Data-Driven Stock Analysis
+# 📊 Data-Driven Stock Analysis
 
-A complete stock analytics project using Python, Streamlit, and Power BI. Built as a mini-project for Guvi's Data Science program, this project analyses Nifty 50 stocks and presents the insights through interactive visualisations.
+A comprehensive stock analysis project powered by **SQL**, **Python**, **Streamlit**, and **Power BI** to uncover insights on:
 
----
-
-## 📁 Project Structure
-
-```
-Data-Driven-Stock-Analysis/
-├── app.py                        # Streamlit dashboard app
-├── prepare_data.py              # Script to process and save data
-├── Sector_data - Sheet1.csv     # Sector mapping file
-├── stock_csvs/                  # Raw daily YAML-converted stock CSVs
-├── data/                        # Auto-generated data for visualisation
-└── README.md                    # This file
-```
+- Volatility trends
+- Cumulative returns
+- Sector-wise performance
+- Monthly gainers & losers
+- Correlation among stock prices
 
 ---
 
-## 🚀 Features
+## 🚀 Tools Used
 
-* ✅ Extracts and transforms YAML stock data into clean CSVs
-* 📈 Calculates yearly return, volatility, and cumulative return
-* 🏢 Performs sector-wise analysis
-* 📊 Interactive dashboards in **Streamlit**
-* 📉 Data visualizations in **Power BI**
-* 🔗 Correlation heatmaps between stock prices
-* 📅 Monthly top gainers and losers
+- **MySQL** – Data storage & queries
+- **Pandas / Plotly / Seaborn** – Python data processing & visualization
+- **Streamlit** – Web-based dashboard
+- **Power BI** – Business intelligence report
 
 ---
 
-## 🛠️ Tech Stack
+## 🧱 Project Structure
 
-* **Python** 🐍 (Pandas, Matplotlib, Seaborn)
-* **Streamlit** 🌐 (dashboard UI)
-* **Power BI** 📊 (interactive reporting)
-* **Git & GitHub** 💻 (version control)
+```
+📦 Stock_Analysis_Project/
+├── app.py                     ← Streamlit app
+├── requirements.txt           ← Python dependencies
+├── README.md                  ← Project documentation
+├── 📂 data/
+│   ├── sector_performance.csv
+│   ├── monthly_returns.csv
+│   ├── top10_volatility.csv
+│   ├── top5_cumulative_return.csv
+│   └── stock_price_correlation.csv
+├── 📊 Stock_Analysis_Final_Report.pbix ← Power BI dashboard
+```
 
 ---
 
-## ▶️ How to Run
+## 📈 Streamlit Features
 
-### 1️⃣ Clone the Repo
+- Interactive sidebar navigation
+- Dynamic charts with Plotly
+- Clean UI with CSS enhancements
+- SQL-connected live insights
 
+> 📂 To run the Streamlit app:
 ```bash
-git clone (https://github.com/Sai-Vennela-Yadavalli/Data-driven-Stock-Analysis.git)
-cd Data-driven-Stock-Analysis
-```
-
-
-### 2️⃣ Install Requirements
-
-```bash
-pip install -r requirements.txt  # Or manually install: pandas, numpy, matplotlib, seaborn, streamlit
-```
-
-### 3️⃣ Prepare the Data
-
-```bash
-python prepare_data.py
-```
-
-### 4️⃣ Launch the Dashboard
-
-```bash
+pip install -r requirements.txt
 streamlit run app.py
 ```
-
-🧠 Visit: `http://localhost:8501`
 
 ---
 
 ## 📊 Power BI Report
 
-All data in `/data/` can be used to build Power BI dashboards:
+- Cover page with project summary
+- Slicers for monthly filtering
+- Conditional formatting on matrix and bars
+- Visual consistency with Streamlit
 
-* Bar charts for top gainers/losers
-* Sector-wise comparisons
-* Monthly return slicers
+> 🔍 Open `Data-driven Stock Analysis.pbix` in Power BI Desktop
 
 ---
 
-## 📝 Credits
-
-* 💻 Developed by Sai Vennela Yadavalli
+## 🙋‍♀️ Author
+**Sai Vennela Yadavalli**  
+Data Science Enthusiast | SQL • Python • Streamlit • Power BI
 * 🎓 Guvi Mini Project (Data Science Program)
 * 📦 Stock data based on YAML sources provided
 
 ---
-
 ## 🔗 Connect
 
 * 💬 For questions, contact me on (https://www.linkedin.com/in/sai-vennela-yadavalli-8b854432a/)
-
 ---
 
 ### ⭐ If you like this project, don’t forget to star it!
