@@ -9,7 +9,7 @@ import plotly.express as px
 st.set_page_config(page_title="Data-driven Stock Analysis Dashboard", layout="wide")
 
 # --- DB Connection ---
-engine = create_engine("mysql+mysqlconnector://2jJrpvjwrA9Wt2x.root:0ZT6EVmzzpAYMnUB@gateway01.ap-southeast-1.prod.aws.tidbcloud.com:4000/Stock_Analysis")
+engine = create_engine("mysql+mysqlconnector://user:password@host:port/DB1-name")
 
 # --- Sidebar Navigation ---
 st.sidebar.title("📌 Navigation")
